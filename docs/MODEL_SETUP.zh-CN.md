@@ -215,4 +215,4 @@ Qwen 的模型、依赖准备完整后在本机推理；不需要 API Key。当�
 
 便携入口的用户数据在解压目录 `data`；安装版默认在 `%LOCALAPPDATA%\Juzhou`，若曾自定义则以 `data-location.json` 记录为准。缓存清理不会代替模型管理。卸载或换电脑前备份工作数据；分享问题日志前检查是否含路径、文稿或其他私人信息。
 
-参考来源：[Qwen3-ASR 官方说明](https://github.com/QwenLM/Qwen3-ASR)、[Miniforge](https://github.com/conda-forge/miniforge)、[PyTorch](https://pytorch.org/get-started/locally/)。下载页面与目录结构核对于本次归档；上游发布可能变化，优先保留已验证环境，不要随意更新整套依赖。
+参考来源：[Qwen3-ASR 官方说明](https://github.com/QwenLM/Qwen3-ASR)、[Miniforge](https://github.com/conda-forge/miniforge)、[PyTorch](https://pytorch.org/get-started/locally/)。上游下载页面与目录结构可能变化，请以官方说明为准；已有环境可正常使用时，无需更新整套依赖。

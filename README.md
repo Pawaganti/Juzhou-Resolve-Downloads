@@ -16,6 +16,8 @@ Windows x64 · 当前版本 **v1.2.0** · 构建 `1.2.0-stable.20261030`。
 
 ## 下载与开始
 
+提供 Windows 安装版和便携版，可在 [下载页面](https://github.com/Pawaganti/Juzhou-Resolve-Downloads/releases/latest) 获取。
+
 | 下载 | 用法 |
 | --- | --- |
 | **[Windows 安装版 EXE](https://github.com/Pawaganti/Juzhou-Resolve-Downloads/releases/download/v1.2.0/Juzhou-v1.2.0-windows-x64-setup.exe)** | 双击中文安装向导，提供快捷方式和 Windows 卸载入口；更新保留配置。 |
