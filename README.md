@@ -16,13 +16,18 @@ Windows x64 · 当前版本 **v1.2.0** · 构建 `1.2.0-stable.20261030`。
 
 ## 下载与开始
 
-1. 在 [Releases](https://github.com/Pawaganti/Juzhou-Resolve-Downloads/releases/latest) 下载 `Juzhou-v1.2.0-win32-x64.zip`，**完整解压到可写目录**，双击 `00-Start.cmd` 独立启动，无需安装开发环境。
-2. 按 [模型配置教程](docs/MODEL_SETUP.zh-CN.md) 下载或关联模型。**运行包不含模型权重；第一次转录前必须配置模型。**
-3. 打开句轴，选择配音 → 转录或用已有文稿打轴 → 校对并导出 SRT／写入达芬奇。
+| 下载 | 用法 |
+| --- | --- |
+| **[Windows 安装版 EXE](https://github.com/Pawaganti/Juzhou-Resolve-Downloads/releases/download/v1.2.0/Juzhou-v1.2.0-windows-x64-setup.exe)** | 双击中文安装向导，提供快捷方式和 Windows 卸载入口；更新保留配置。 |
+| **[便携版 ZIP](https://github.com/Pawaganti/Juzhou-Resolve-Downloads/releases/download/v1.2.0/Juzhou-v1.2.0-win32-x64.zip)** | 完整解压，双击 `00-Start.cmd`；附带达芬奇辅助 CMD。 |
 
-已有 SRT 可直接导入、校对并写入达芬奇，无需语音模型。需要达芬奇菜单和桌面快捷方式时，再运行 `01-Install-Resolve.cmd`；安装与便携启动的区别见 [接入说明](docs/RESOLVE_SETUP.zh-CN.md)。不要只复制 EXE，旁边的 `_internal` 和 `integration` 也必须保留。
+1. 选择安装版或便携版，打开句轴。
+2. 音频转录前按 [模型配置教程](docs/MODEL_SETUP.zh-CN.md) 下载或关联模型；已有 SRT 无需语音模型。
+3. 选择配音 → 转录或文稿打轴 → 校对并导出 SRT／写入达芬奇时间线。
 
-[模型下载与配置](docs/MODEL_SETUP.zh-CN.md) · [达芬奇安装与检查](docs/RESOLVE_SETUP.zh-CN.md) · [使用说明](docs/USAGE.zh-CN.md) · [兼容性说明](docs/COMPATIBILITY.md) · [更新记录](CHANGELOG.md)
+两种运行包均不含模型、个人配置和文稿。API 目前仅保存配置。
+
+[安装、更新与卸载](docs/INSTALL.zh-CN.md) · [模型配置](docs/MODEL_SETUP.zh-CN.md) · [达芬奇接入](docs/RESOLVE_SETUP.zh-CN.md) · [使用说明](docs/USAGE.zh-CN.md) · [兼容性说明](docs/COMPATIBILITY.md)
 
 ## 界面
 
